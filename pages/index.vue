@@ -48,7 +48,7 @@ export default {
           title: 'Teresa López Blog',
           id: 'teresa',
           description:
-            'Es una estudiante de creación literaria. Aún no es una escritora famosa pero algún dia lo será. Su contenido aún está en proceso pero el diseño y la funcionalidad están listos para explotar su talento.',
+            'El blog esta hecho con una starter library de Gatsby y se personalizó. Teresa es una escritora recien empezada, aún no es famosa pero algún dia lo será. Su contenido aún está en proceso pero el diseño y la funcionalidad están listos para explotar su talento.',
           labels: ['Blog', 'Literatura'],
           url: 'https://www.teresaescribe.net/',
           img:

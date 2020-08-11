@@ -7,8 +7,19 @@
           :description="description"
           :contact="contact"
         />
-        <n-link to="/">Portfolio</n-link>
-        <n-link to="/about">About</n-link>
+        <div class="">
+          <n-link
+            to="/"
+            class="text-blue-800 underline text-xl hover:text-teal-800 m-2"
+            >Portfolio</n-link
+          >
+          <p class="text-blue-800 inline">|</p>
+          <n-link
+            to="/about"
+            class="text-blue-800 underline text-xl hover:text-teal-800 m-2"
+            >About</n-link
+          >
+        </div>
       </div>
       <div class="m-4">
         <slot class="m-8"></slot>
@@ -18,7 +29,7 @@
 </template>
 
 <script>
-import HeaderMain from '../components/HeaderMain.vue';
+import HeaderMain from './HeaderMain';
 
 export default {
   name: 'MainLayout',
