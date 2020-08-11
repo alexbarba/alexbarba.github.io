@@ -44,6 +44,15 @@ export default {
           url: 'https://www.rojodelicias.com/',
           img: 'https://www.rojodelicias.com/images/medium/logo-collapsed.png',
         },
+        {
+          title: 'Teresa López Blog',
+          id: 'teresa',
+          description:
+            'Es una estudiante de creación literaria. Aún no es una escritora famosa pero algún dia lo será. Su contenido aún está en proceso pero el diseño y la funcionalidad están listos para explotar su talento.',
+          labels: ['Blog', 'Literatura'],
+          url: 'https://www.teresaescribe.net/',
+          img: 'https://github/alexbarba/me/assets/teresa.png',
+        },
       ],
     };
   },
