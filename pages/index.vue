@@ -51,7 +51,7 @@ export default {
             'Es una estudiante de creación literaria. Aún no es una escritora famosa pero algún dia lo será. Su contenido aún está en proceso pero el diseño y la funcionalidad están listos para explotar su talento.',
           labels: ['Blog', 'Literatura'],
           url: 'https://www.teresaescribe.net/',
-          img: 'https://github.com/alexbarba/me/assets/teresa.png',
+          img: 'https://github.com/alexbarba/me/blob/master/assets/teresa.png',
         },
       ],
     };
