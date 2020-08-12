@@ -54,6 +54,16 @@ export default {
           img:
             'https://raw.githubusercontent.com/alexbarba/me/master/assets/teresa.png',
         },
+        {
+          title: 'Calculadora Binaria',
+          id: 'binaryCalculator',
+          description:
+            'Calculadora binaria hecha con Vainilla JS y CSS, usando Regex, a prueba de errores, para el reto "10 Days of Javascript" de Hackerrank',
+          labels: ['Calculadora', 'Javascript', 'CSS'],
+          url: 'https://alexbarba.github.io/BinaryCalculator/',
+          img:
+            'https://raw.githubusercontent.com/alexbarba/me/master/assets/binarycalculator.png',
+        },
       ],
     };
   },
