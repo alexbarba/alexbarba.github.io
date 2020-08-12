@@ -81,7 +81,7 @@ export default {
           title: 'Platzi Video',
           id: 'platzivideo',
           description:
-            'Proyecto realizado para el curso de React 2017 en la plataforma de educación Platzi.',
+            'UI para reproducción de video hecha en React. Proyecto realizado para el curso de React 2017 en la plataforma de educación Platzi.',
           labels: ['React', 'Javascript', 'Platzi'],
           url: 'https://alexbarba.github.io/curso-react/',
           img:
