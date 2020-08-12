@@ -100,5 +100,8 @@ export default {
       ],
     };
   },
+  head: {
+    title: 'Alexis Barba - Portafolio 🚀',
+  },
 };
 </script>

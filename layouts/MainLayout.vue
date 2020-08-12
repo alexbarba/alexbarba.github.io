@@ -12,13 +12,13 @@
             <n-link
               to="/"
               class="text-blue-800 underline text-xl hover:text-teal-800 m-2"
-              >Portfolio</n-link
+              >Portafolio</n-link
             >
             <p class="text-blue-800 inline">|</p>
             <n-link
               to="/about"
               class="text-blue-800 underline text-xl hover:text-teal-800 m-2"
-              >About</n-link
+              >Acerca de mí</n-link
             >
           </div>
         </div>

@@ -56,6 +56,9 @@ export default {
     MapMarker,
     GraduationCap,
   },
+  head: {
+    title: 'Alexis Barba - About 🚀',
+  },
 };
 </script>
 
