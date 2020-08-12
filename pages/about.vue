@@ -6,6 +6,13 @@
           class="rounded-full shadow-2xl object-none"
           src="../assets/about.jpg"
         />
+        <p class="block text-left">
+          <map-marker class="m-4 mx-10 whitespace-pre" />Tepic, Nayarit
+        </p>
+        <p class="block text-left">
+          <graduation-cap class="m-4 mx-10 whitespace-pre" />Ing. Cibernética y
+          Sistemas Computacionales
+        </p>
       </div>
 
       <div class="about text-justify m-4 lg:m-8 md:flex-1">
@@ -29,15 +36,37 @@
         </p>
       </div>
     </div>
+    <div>
+      <h2 class="lg:text-3xl md:text-lg text-xl">
+        Lenguajes, Frameworks, Herramientas
+      </h2>
+      <div class="m-8">
+        <img class="h-40 inline-block m-4" src="../assets/js.png" />
+        <img class="h-40 inline-block m-4" src="../assets/html5.png" />
+        <img class="h-40 inline-block m-4" src="../assets/css.svg" />
+        <img class="h-40 inline-block m-4" src="../assets/react.png" />
+        <img class="h-40 inline-block m-4" src="../assets/vue.png" />
+        <img class="h-40 inline-block m-4" src="../assets/git.png" />
+        <img class="h-40 inline-block m-4" src="../assets/graphql.png" />
+        <img class="h-40 inline-block m-4" src="../assets/linux.png" />
+        <img class="h-40 inline-block m-4" src="../assets/python.png" />
+        <img class="h-40 inline-block m-4" src="../assets/code.png" />
+      </div>
+    </div>
   </main-layout>
 </template>
 
 <script>
 import MainLayout from '../layouts/MainLayout.vue';
+import GraduationCap from '../components/icons/GraduationCap';
+import MapMarker from '../components/icons/MapMarker';
+
 export default {
   name: 'About',
   components: {
     MainLayout,
+    MapMarker,
+    GraduationCap,
   },
 };
 </script>
