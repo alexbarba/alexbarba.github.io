@@ -6,13 +6,18 @@
           class="rounded-full shadow-2xl object-none"
           src="../assets/about.jpg"
         />
-        <p class="block text-left">
-          <map-marker class="m-4 mx-10 whitespace-pre" />Tepic, Nayarit
-        </p>
-        <p class="block text-left">
-          <graduation-cap class="m-4 mx-10 whitespace-pre" />Ing. Cibernética y
-          Sistemas Computacionales
-        </p>
+        <div class="m-4">
+          <map-marker class="inline p-2 text-letf" />
+          <p class="inline p-2">
+            Tepic, Nayarit
+          </p>
+        </div>
+        <div class="block-inline m-4">
+          <graduation-cap class="inline p-2" />
+          <p class="inline p-2">
+            Ing. Cibernética y Sistemas Computacionales
+          </p>
+        </div>
       </div>
 
       <div class="about text-justify m-4 lg:m-8 md:flex-1">
@@ -34,23 +39,6 @@
           nací por lo cual también se hacer pan de todo tipo y conozco la
           ciencia detrás de el proceso.
         </p>
-      </div>
-    </div>
-    <div>
-      <h2 class="lg:text-3xl md:text-lg text-xl">
-        Lenguajes, Frameworks, Herramientas
-      </h2>
-      <div class="m-8">
-        <img class="h-40 inline-block m-4" src="../assets/js.png" />
-        <img class="h-40 inline-block m-4" src="../assets/html5.png" />
-        <img class="h-40 inline-block m-4" src="../assets/css.svg" />
-        <img class="h-40 inline-block m-4" src="../assets/react.png" />
-        <img class="h-40 inline-block m-4" src="../assets/vue.png" />
-        <img class="h-40 inline-block m-4" src="../assets/git.png" />
-        <img class="h-40 inline-block m-4" src="../assets/graphql.png" />
-        <img class="h-40 inline-block m-4" src="../assets/linux.png" />
-        <img class="h-40 inline-block m-4" src="../assets/python.png" />
-        <img class="h-40 inline-block m-4" src="../assets/code.png" />
       </div>
     </div>
   </main-layout>

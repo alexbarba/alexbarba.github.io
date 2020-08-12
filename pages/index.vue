@@ -1,14 +1,37 @@
 <template>
   <MainLayout>
-    <Card
-      v-for="card in cards"
-      :key="card.id"
-      :title="card.title"
-      :description="card.description"
-      :labels="card.labels"
-      :url="card.url"
-      :img="card.img"
-    />
+    <div class="container mx-auto divide-y-2 divide-black divide-opacity-25">
+      <div class="py-4">
+        <h2 class="lg:text-3xl text-2xl">Proyectos</h2>
+        <Card
+          v-for="card in cards"
+          :key="card.id"
+          :title="card.title"
+          :description="card.description"
+          :labels="card.labels"
+          :url="card.url"
+          :img="card.img"
+        />
+      </div>
+
+      <div class="py-4">
+        <h2 class="lg:text-3xl text-2xl">
+          Lenguajes, Frameworks, Herramientas, Librerías
+        </h2>
+        <div class="m-8">
+          <img class="h-40 inline-block m-4" src="../assets/js.png" />
+          <img class="h-40 inline-block m-4" src="../assets/html5.png" />
+          <img class="h-40 inline-block m-4" src="../assets/css.svg" />
+          <img class="h-40 inline-block m-4" src="../assets/react.png" />
+          <img class="h-40 inline-block m-4" src="../assets/vue.png" />
+          <img class="h-40 inline-block m-4" src="../assets/git.png" />
+          <img class="h-40 inline-block m-4" src="../assets/graphql.png" />
+          <img class="h-40 inline-block m-4" src="../assets/linux.png" />
+          <img class="h-40 inline-block m-4" src="../assets/python.png" />
+          <img class="h-40 inline-block m-4" src="../assets/code.png" />
+        </div>
+      </div>
+    </div>
   </MainLayout>
 </template>
 
@@ -53,6 +76,16 @@ export default {
           url: 'https://www.teresaescribe.net/',
           img:
             'https://raw.githubusercontent.com/alexbarba/me/master/assets/teresa.png',
+        },
+        {
+          title: 'Platzi Video',
+          id: 'platzivideo',
+          description:
+            'Proyecto realizado para el curso de React 2017 en la plataforma de educación Platzi.',
+          labels: ['React', 'Javascript', 'Platzi'],
+          url: 'https://alexbarba.github.io/curso-react/',
+          img:
+            'https://raw.githubusercontent.com/alexbarba/me/master/assets/platzivideo.png',
         },
         {
           title: 'Calculadora Binaria',
