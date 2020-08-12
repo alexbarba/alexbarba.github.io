@@ -48,7 +48,7 @@ export default {
       contact: {
         github: 'https://github.com/alexbarba/',
         linkedin: 'https://www.linkedin.com/alexisbarba',
-        twitter: 'https://www.linkedin.com/AlexBarba_',
+        twitter: 'https://www.twitter.com/AlexBarba_',
         mail: 'alexis.barba.perez@gmail.com',
       },
     };
