@@ -30,14 +30,14 @@
           Computacionales y Cibernética en la Universidad Marista de Guadalajara
           de la cual me gradue en 2018, llevo dos años estudiando poco a poco
           desarrollo web con algunos cursos y documentación oficial por lo tanto
-          prefiero decir que soy autodidacta. Soy originario de Tepic, Nayarit
-          donde pasé mis estudios básicos. Me gustan las matemáticas y las
-          ciencias, pero siempre me llamó la atención llevarlas a la pŕactica y
-          por eso me he orientado hacia las ciencias computacionales. También me
-          gusta hacer ejercicio, el emprendimiento, las finanzas, los
-          videojuegos y el ajedrez. Mis padres tienen una panadería desde que
-          nací por lo cual también se hacer pan de todo tipo y conozco la
-          ciencia detrás de el proceso.
+          prefiero decir que soy autodidacta y amante del open source. Nací en
+          Tepic, Nayarit donde pasé mis estudios básicos. Me gustan las
+          matemáticas y las ciencias, pero siempre me llamó la atención
+          llevarlas a la pŕactica y por eso me he orientado hacia las ciencias
+          computacionales. También me gusta hacer ejercicio, el emprendimiento,
+          las finanzas, los videojuegos y el ajedrez. Mis padres tienen una
+          panadería desde que nací por lo cual también se hacer pan de todo tipo
+          y conozco la ciencia detrás de el proceso.
         </p>
       </div>
     </div>
