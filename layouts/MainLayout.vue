@@ -44,7 +44,7 @@ export default {
   data: () => {
     return {
       title: 'Alexis Barba',
-      description: 'Portafolio Personal',
+      description: 'Web Developer',
       contact: {
         github: 'https://github.com/alexbarba/',
         linkedin: 'https://www.linkedin.com/alexisbarba',
