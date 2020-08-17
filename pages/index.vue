@@ -19,16 +19,43 @@
           Lenguajes, Frameworks, Herramientas, Librerías
         </h2>
         <div class="m-8">
-          <img class="h-40 inline-block m-4" src="../assets/js.png" />
-          <img class="h-40 inline-block m-4" src="../assets/html5.png" />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/x3CYclw.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/cFC4rej.png"
+          />
           <img class="h-40 inline-block m-4" src="../assets/css.svg" />
-          <img class="h-40 inline-block m-4" src="../assets/react.png" />
-          <img class="h-40 inline-block m-4" src="../assets/vue.png" />
-          <img class="h-40 inline-block m-4" src="../assets/git.png" />
-          <img class="h-40 inline-block m-4" src="../assets/graphql.png" />
-          <img class="h-40 inline-block m-4" src="../assets/linux.png" />
-          <img class="h-40 inline-block m-4" src="../assets/python.png" />
-          <img class="h-40 inline-block m-4" src="../assets/code.png" />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/9YHOqS6.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/DGIFtCv.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/aVSMiAF.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/xeZOCCj.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/Omud1zQ.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/aK5pheS.png"
+          />
+          <img
+            class="h-40 inline-block m-4"
+            src="https://i.imgur.com/tVIwnQg.png"
+          />
         </div>
       </div>
     </div>
@@ -74,8 +101,7 @@ export default {
             'El blog esta hecho con una starter library de Gatsby y se personalizó. Teresa es una escritora recien empezada, aún no es famosa pero algún dia lo será. Su contenido aún está en proceso pero el diseño y la funcionalidad están listos para explotar su talento.',
           labels: ['Blog', 'Literatura'],
           url: 'https://www.teresaescribe.net/',
-          img:
-            'https://raw.githubusercontent.com/alexbarba/me/master/assets/teresa.png',
+          img: 'https://i.imgur.com/B8kJUSn.png',
         },
         {
           title: 'Platzi Video',
@@ -84,8 +110,7 @@ export default {
             'UI para reproducción de video hecha en React. Proyecto realizado para el curso de React 2017 en la plataforma de educación Platzi.',
           labels: ['React', 'Javascript', 'Platzi'],
           url: 'https://alexbarba.github.io/curso-react/',
-          img:
-            'https://raw.githubusercontent.com/alexbarba/me/master/assets/platzivideo.png',
+          img: 'https://i.imgur.com/la6x97t.png',
         },
         {
           title: 'Calculadora Binaria',

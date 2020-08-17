@@ -4,7 +4,7 @@
       <div class="m-4 lg:m-8 md:flex-1 object-center">
         <img
           class="rounded-full shadow-2xl object-none"
-          src="../assets/about.jpg"
+          src="https://i.imgur.com/a07iX5a.jpg"
         />
         <div class="m-4">
           <map-marker class="inline p-2 text-letf" />
