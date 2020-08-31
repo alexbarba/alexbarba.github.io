@@ -47,7 +47,7 @@ export default {
       description: 'Web Developer',
       contact: {
         github: 'https://github.com/alexbarba/',
-        linkedin: 'https://www.linkedin.com/alexisbarba',
+        linkedin: 'https://www.linkedin.com/in/alexisbarba',
         twitter: 'https://www.twitter.com/AlexBarba_',
         mail: 'alexis.barba.perez@gmail.com',
       },
