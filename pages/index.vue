@@ -20,41 +20,10 @@
         </h2>
         <div class="m-8">
           <img
+            v-for="technology in technologies"
+            :key="technology.name"
             class="h-40 inline-block m-4"
-            src="https://i.imgur.com/x3CYclw.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/cFC4rej.png"
-          />
-          <img class="h-40 inline-block m-4" src="../assets/css.svg" />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/9YHOqS6.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/DGIFtCv.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/aVSMiAF.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/xeZOCCj.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/Omud1zQ.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/aK5pheS.png"
-          />
-          <img
-            class="h-40 inline-block m-4"
-            src="https://i.imgur.com/tVIwnQg.png"
+            :src="technology.src"
           />
         </div>
       </div>
@@ -74,6 +43,23 @@ export default {
   },
   data: () => {
     return {
+      technologies: [
+        { src: 'https://i.imgur.com/x3CYclw.png', name: 'JavaScript' },
+        { src: 'https://i.imgur.com/cFC4rej.png', name: 'HTML5' },
+        {
+          src:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png',
+          name: 'CSS',
+        },
+        { src: 'https://i.imgur.com/9YHOqS6.png', name: 'React' },
+        { src: 'https://i.imgur.com/DGIFtCv.png', name: 'Vue' },
+        { src: 'https://i.imgur.com/aVSMiAF.png', name: 'Git' },
+        { src: 'https://i.imgur.com/xeZOCCj.png', name: 'Graphql' },
+        { src: 'https://i.imgur.com/aK5pheS.png', name: 'Python' },
+        { src: 'https://i.imgur.com/tVIwnQg.png', name: 'VSCode' },
+        { src: 'https://i.imgur.com/xNjaHz9.png', name: 'Apollo' },
+        { src: 'https://i.imgur.com/Omud1zQ.png', name: 'Linux' },
+      ],
       cards: [
         {
           title: 'Fiestas de Octubre',
@@ -112,6 +98,14 @@ export default {
           url: 'https://alexbarba.github.io/curso-react/',
           img: 'https://i.imgur.com/la6x97t.png',
         },
+        {
+          title: 'Petgram',
+          id:'petgram',
+          description: 'Con Petgram puedes encontrar fotos de animales domésticos muy bonitos. PWA hecha en el curso de react avanzado de platzi',
+          labels: ['PWA', 'React', 'Hooks', 'Apollo', 'Helmet', 'Router'],
+          url: 'https://petgram-alexbarba.vercel.app/',
+          img: 'https://i.imgur.com/Z7lgRlU.png'
+        }
         {
           title: 'Calculadora Binaria',
           id: 'binaryCalculator',

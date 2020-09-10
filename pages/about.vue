@@ -8,21 +8,15 @@
         />
         <div class="m-4">
           <map-marker class="inline p-2 text-letf" />
-          <p class="inline p-2">
-            Tepic, Nayarit
-          </p>
+          <p class="inline p-2">Tepic, Nayarit</p>
         </div>
         <div class="block-inline m-4">
           <graduation-cap class="inline p-2" />
-          <p class="inline p-2">
-            Sistemas Computacionales | UMG | 2013-2018
-          </p>
+          <p class="inline p-2">Sistemas Computacionales | UMG | 2013-2018</p>
         </div>
         <div class="block-inline m-4">
           <PlatziIcon class="inline p-2" />
-          <p class="inline p-2">
-            Platzi | 2018-Presente
-          </p>
+          <p class="inline p-2">Platzi | 2018-Presente</p>
         </div>
       </div>
 
