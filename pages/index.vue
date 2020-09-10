@@ -100,12 +100,13 @@ export default {
         },
         {
           title: 'Petgram',
-          id:'petgram',
-          description: 'Con Petgram puedes encontrar fotos de animales domésticos muy bonitos. PWA hecha en el curso de react avanzado de platzi',
+          id: 'petgram',
+          description:
+            'Con Petgram puedes encontrar fotos de animales domésticos muy bonitos. PWA hecha en el curso de react avanzado de platzi',
           labels: ['PWA', 'React', 'Hooks', 'Apollo', 'Helmet', 'Router'],
           url: 'https://petgram-alexbarba.vercel.app/',
-          img: 'https://i.imgur.com/Z7lgRlU.png'
-        }
+          img: 'https://i.imgur.com/Z7lgRlU.png',
+        },
         {
           title: 'Calculadora Binaria',
           id: 'binaryCalculator',
