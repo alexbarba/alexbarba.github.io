@@ -17,4 +17,6 @@ $ npm run start
 $ npm run generate
 ```
 
+Para subirlo a gh-pages correr comandos npm run generate para generar estaticos, hacer add, commit de esos estaticos y npm run deploy para subir la rama para dist
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
