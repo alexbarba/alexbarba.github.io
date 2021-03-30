@@ -62,10 +62,29 @@ export default {
       ],
       cards: [
         {
+          title: 'Cusiin',
+          id: 'cusiin',
+          description:
+            '[en desarrollo] SaaS All-in-one (frontend, backend y dashboard), first-mobile, pensado para facilitar las ventas minoristas online principalmente en la industria restaurantera a bajo coste.',
+          labels: [
+            'React',
+            'NextJS',
+            'TailwindCSS',
+            'Stripe',
+            'GoogleAPI',
+            'Serverless',
+            'Apollo',
+            'MongoDB',
+            'Strapi',
+          ],
+          url: 'https://rojodelicias.com/',
+          img: 'https://i.imgur.com/xoap3hF.png',
+        },
+        {
           title: 'ERP Estrella',
           id: 'estrella',
           description:
-            'Actualmente en desarrollo, el proyecto comienza con un módulo de inventario y posteriormente se irán añadiendo módulos para las ventas y demás necesidades de datos de la empresa. En este proyecto utilicé una base de datos Mongo en Mongo Cloud, Apollo Server para administrar las querys y mutaciones, y en la parte del frontend React y Apollo Client.',
+            '[en desarrollo] El proyecto comienza con un módulo de inventario y posteriormente se irán añadiendo módulos para las ventas y demás necesidades de datos de la empresa. En este proyecto utilicé una base de datos Mongo en Mongo Cloud, Apollo Server para administrar las querys y mutaciones, y en la parte del frontend React y Apollo Client.',
           labels: ['React', 'Apollo', 'Graphql', 'Mongo', 'Express'],
           url: 'https://estrella-erp.vercel.app/',
           img: 'https://i.imgur.com/XcP2hAU.png',
@@ -82,8 +101,7 @@ export default {
         {
           title: 'Petgram',
           id: 'petgram',
-          description:
-            'Con Petgram puedes encontrar fotos de animales domésticos muy bonitos. PWA hecha en el curso de react avanzado de platzi',
+          description: 'PWA hecha en el curso de React Avanzado en Platzi',
           labels: ['PWA', 'React', 'Hooks', 'Apollo', 'Helmet', 'Router'],
           url: 'https://petgram-alexbarba.vercel.app/',
           img: 'https://i.imgur.com/Z7lgRlU.png',
@@ -101,10 +119,11 @@ export default {
           title: 'Rojo Delicias',
           id: 'rojodelicias',
           description:
-            'Sitio web donde publican su información de contacto, su menú (desplegado con vue y un archivo JSON) y fotos de sus platillos. También he realizado: creación del menú, instalacion del sistema Odoo POS (Punto de Venta) y campañas de marketing para obtener followers.',
-          labels: ['Restaurante', 'Café', 'Postres'],
-          url: 'https://www.rojodelicias.com/',
-          img: 'https://www.rojodelicias.com/images/medium/logo-collapsed.png',
+            '(2018) Sitio web estatico donde publican su información de contacto, su menú (desplegado con vue y un archivo JSON) y fotos de sus platillos.',
+          labels: ['Bootstrap', 'HTML', 'CSS'],
+          url: 'https://alexbarba.github.io/rojodelicias-site/',
+          img:
+            'https://alexbarba.github.io/rojodelicias-site/images/medium/logo-collapsed.png',
         },
 
         {

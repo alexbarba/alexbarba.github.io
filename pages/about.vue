@@ -8,7 +8,7 @@
         />
         <div class="m-4">
           <map-marker class="inline p-2 text-letf" />
-          <p class="inline p-2">Tepic, Nayarit</p>
+          <p class="inline p-2">Internet</p>
         </div>
         <div class="block-inline m-4">
           <graduation-cap class="inline p-2" />
@@ -25,16 +25,16 @@
           Hola, mi nombre es Alexis Barba.
         </h2>
         <p class="lg:text-2xl md:text-md text-lg">
-          Me estoy iniciando en el desarrollo web, con bases sólidas y muchas
-          ganas de seguir aprendiendo. Estudié Ing. en Sistemas Computacionales
-          y Cibernética en la Universidad Marista de Guadalajara de la cual me
-          gradué en 2018, llevo dos años estudiando desarrollo web en Platzi,
-          documentación oficial y comunidades, por lo tanto prefiero decir que
-          soy autodidacta y amante del open source. Nací en Tepic, Nayarit donde
-          pasé mis estudios básicos. Me gustan las matemáticas y las ciencias,
-          pero siempre me llamó la atención llevarlas a la pŕactica y por eso me
-          he orientado hacia las ciencias computacionales. También me gusta
-          hacer ejercicio, el emprendimiento, las finanzas, los videojuegos y el
+          Soy desarrollador web, con bases sólidas y muchas ganas de seguir
+          aprendiendo. Estudié Ing. en Sistemas Computacionales y Cibernética en
+          la Universidad Marista de Guadalajara de la cual me gradué en 2018,
+          llevo dos años estudiando desarrollo web en Platzi, documentación
+          oficial y comunidades, por lo tanto prefiero decir que soy autodidacta
+          y amante del open source. Nací en Tepic, Nayarit donde pasé mis
+          estudios básicos. Me gustan las matemáticas y las ciencias, pero
+          siempre me llamó la atención llevarlas a la pŕactica y por eso me he
+          orientado hacia el desarrollo de software. También me gusta hacer
+          ejercicio, el emprendimiento, las finanzas, los videojuegos y el
           ajedrez. Me gustaría ser un profesional en IA y en Data Science algún
           día.
         </p>
