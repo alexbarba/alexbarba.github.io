@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{203:function(n,t,e){"use strict";e.r(t);var o={name:"NotFound",components:{MainLayout:e(89).a}},c=e(3),component=Object(c.a)(o,(function(){var n=this.$createElement,t=this._self._c||n;return t("MainLayout",[t("p",[this._v("Page not found")])])}),[],!1,null,null,null);t.default=component.exports}}]);
