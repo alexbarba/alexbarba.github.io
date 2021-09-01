@@ -1,7 +1,7 @@
 <template>
   <main-layout>
-    <div class="content-center md:flex items-center">
-      <div class="m-4 lg:m-8 md:flex-1 object-center">
+    <div class="md:flex mt-4 sm:mt-8">
+      <div class="md:flex-1 object-center">
         <img
           class="rounded-full shadow-2xl object-none"
           src="https://i.imgur.com/a07iX5a.jpg"
@@ -20,11 +20,11 @@
         </div>
       </div>
 
-      <div class="about text-justify m-4 lg:m-8 md:flex-1">
+      <div class="text-justify m-4 md:flex-1 h-full mt-8">
         <h2 class="lg:text-3xl md:text-lg text-xl">
           Hola, mi nombre es Alexis Barba.
         </h2>
-        <p class="lg:text-2xl md:text-md text-lg">
+        <p class="lg:text-2xl md:text-md mt-4">
           Soy desarrollador web, con bases sólidas y muchas ganas de seguir
           aprendiendo. Estudié Ing. en Sistemas Computacionales y Cibernética en
           la Universidad Marista de Guadalajara de la cual me gradué en 2018,

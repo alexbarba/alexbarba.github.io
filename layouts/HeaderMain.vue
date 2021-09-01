@@ -1,24 +1,31 @@
 <template>
-  <div class="container mx-auto">
-    <div class="container mx-auto text-6xl">{{ title }}</div>
-    <div class="container mx-auto text-3xl">{{ description }}</div>
-
-    <a :href="contact.github" target="_blank"
-      ><GithubIcon
-        class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
-    /></a>
-    <a :href="contact.linkedin" target="_blank"
-      ><LinkedinIcon
-        class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
-    /></a>
-    <a :href="contact.twitter" target="_blank"
-      ><TwitterIcon
-        class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
-    /></a>
-    <a :href="`mailto:{{contact.mail}}`" target="_blank"
-      ><MailIcon
-        class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
-    /></a>
+  <div class="container mx-auto grid gap-4">
+    
+    <h1 class="container mx-auto text-6xl">
+      {{ title }}
+    </h1>
+    <h2 class="container mx-auto text-3xl">
+      {{ description }}
+    </h2>
+    
+    <div>  
+      <a :href="contact.github" target="_blank"
+        ><GithubIcon
+          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+      /></a>
+      <a :href="contact.linkedin" target="_blank"
+        ><LinkedinIcon
+          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+      /></a>
+      <a :href="contact.twitter" target="_blank"
+        ><TwitterIcon
+          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+      /></a>
+      <a :href="`mailto:{{contact.mail}}`" target="_blank"
+        ><MailIcon
+          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+      /></a>
+    </div>
   </div>
 </template>
 
