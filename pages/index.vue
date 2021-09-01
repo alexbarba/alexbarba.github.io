@@ -73,21 +73,12 @@ export default {
             'Stripe',
             'GoogleAPI',
             'Serverless',
-            'Apollo',
+            'SWR',
             'MongoDB',
             'Strapi',
           ],
-          url: 'https://rojodelicias.com/',
+          url: 'https://cusiin-git-dev-alexbarba.vercel.app',
           img: 'https://i.imgur.com/xoap3hF.png',
-        },
-        {
-          title: 'ERP Estrella',
-          id: 'estrella',
-          description:
-            '[en desarrollo] El proyecto comienza con un módulo de inventario y posteriormente se irán añadiendo módulos para las ventas y demás necesidades de datos de la empresa. En este proyecto utilicé una base de datos Mongo en Mongo Cloud, Apollo Server para administrar las querys y mutaciones, y en la parte del frontend React y Apollo Client.',
-          labels: ['React', 'Apollo', 'Graphql', 'Mongo', 'Express'],
-          url: 'https://estrella-erp.vercel.app/',
-          img: 'https://i.imgur.com/XcP2hAU.png',
         },
         {
           title: 'Teresa López Blog',
@@ -95,7 +86,7 @@ export default {
           description:
             'El blog esta hecho con una starter library de Gatsby y se personalizó. Teresa es una escritora recien empezada, aún no es famosa pero algún dia lo será. Su contenido aún está en proceso pero el diseño y la funcionalidad están listos para explotar su talento.',
           labels: ['Blog', 'Literatura'],
-          url: 'https://www.teresaescribe.net/',
+          url: 'https://www.teresaescribe.com',
           img: 'https://i.imgur.com/B8kJUSn.png',
         },
         {
@@ -125,7 +116,15 @@ export default {
           img:
             'https://alexbarba.github.io/rojodelicias-site/images/medium/logo-collapsed.png',
         },
-
+        {
+          title: 'ERP Estrella',
+          id: 'estrella',
+          description:
+            '[en desarrollo] El proyecto comienza con un módulo de inventario y posteriormente se irán añadiendo módulos para las ventas y demás necesidades de datos de la empresa. En este proyecto utilicé una base de datos Mongo en Mongo Cloud, Apollo Server para administrar las querys y mutaciones, y en la parte del frontend React y Apollo Client.',
+          labels: ['React', 'Apollo', 'Graphql', 'Mongo', 'Express'],
+          url: 'https://estrella-erp.vercel.app/',
+          img: 'https://i.imgur.com/XcP2hAU.png',
+        },
         {
           title: 'Platzi Video',
           id: 'platzivideo',
@@ -135,7 +134,6 @@ export default {
           url: 'https://alexbarba.github.io/curso-react/',
           img: 'https://i.imgur.com/la6x97t.png',
         },
-
         {
           title: 'Fiestas de Octubre',
           id: 'fiestas',
