@@ -1,23 +1,27 @@
 <template>
   <svg
-    aria-hidden="true"
-    focusable="false"
-    data-prefix="fas"
-    data-icon="map-marker-alt"
-    class="fill-current text-teal-500 inline-block h-12 w-12"
-    role="img"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 384 512"
+    class="w-5 h-5"
+    viewBox="0 0 20 20"
+    :class="className"
+    fill="currentColor"
   >
     <path
-      fill="currentColor"
-      d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-    ></path>
+      fill-rule="evenodd"
+      d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+      clip-rule="evenodd"
+    />
   </svg>
 </template>
 
 <script>
 export default {
   name: 'MapMarker',
+  props: {
+    className: {
+      type: String,
+      default: ''
+    }
+  }
 };
 </script>

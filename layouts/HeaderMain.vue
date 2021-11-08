@@ -1,32 +1,33 @@
 <template>
-  <div class="container mx-auto grid gap-4">
-    
-    <h1 class="container mx-auto text-6xl">
+  <header class="grid w-full gap-6 mx-auto my-8">
+    <h1 class="text-4xl text-bold sm:text-6xl">
       {{ title }}
     </h1>
-    <h2 class="container mx-auto text-3xl">
+    <h2 class="text-3xl">
       {{ description }}
     </h2>
-    
-    <div>  
+
+    <div
+      class="flex justify-center w-full gap-4 text-center align-middle md:gap-8"
+    >
       <a :href="contact.github" target="_blank"
         ><GithubIcon
-          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+          class="text-red-400 transition duration-100 ease-in-out transform  hover:text-teal-800 hover:-translate-y-1 hover:scale-110"
       /></a>
       <a :href="contact.linkedin" target="_blank"
         ><LinkedinIcon
-          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+          class="text-red-400 transition duration-100 ease-in-out transform  hover:text-teal-800 hover:-translate-y-1 hover:scale-110"
       /></a>
       <a :href="contact.twitter" target="_blank"
         ><TwitterIcon
-          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+          class="text-red-400 transition duration-100 ease-in-out transform  hover:text-teal-800 hover:-translate-y-1 hover:scale-110"
       /></a>
       <a :href="`mailto:{{contact.mail}}`" target="_blank"
         ><MailIcon
-          class="icon transition duration-100 ease-in-out hover:text-teal-800 transform hover:-translate-y-1 hover:scale-110"
+          class="text-red-400 transition duration-100 ease-in-out transform  hover:text-teal-800 hover:-translate-y-1 hover:scale-110"
       /></a>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -41,22 +42,22 @@ export default {
     GithubIcon,
     LinkedinIcon,
     TwitterIcon,
-    MailIcon,
+    MailIcon
   },
   props: {
     title: {
       type: String,
-      required: true,
+      required: true
     },
     description: {
       type: String,
-      required: true,
+      required: true
     },
     contact: {
       type: Object,
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 };
 </script>
 

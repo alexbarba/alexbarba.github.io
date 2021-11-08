@@ -1,64 +1,80 @@
 <template>
-  <div>
-    <div class="container mx-auto main-layout">
-      <div class="divide-y-2 divide-black divide-opacity-25">
-        <div>
-          <HeaderMain
-            :title="title"
-            :description="description"
-            :contact="contact"
-          />
-          <div class="">
-            <n-link
-              to="/"
-              class="text-blue-800 underline text-xl hover:text-teal-800 m-2"
-              >Portafolio</n-link
-            >
-            <p class="text-blue-800 inline">|</p>
-            <n-link
-              to="/about"
-              class="text-blue-800 underline text-xl hover:text-teal-800 m-2"
-              >Acerca de mí</n-link
-            >
-          </div>
-        </div>
-        <div class="m-4">
-          <slot class="m-8"></slot>
-        </div>
-      </div>
-    </div>
-    <Footer></Footer>
+  <div
+    class="flex flex-col justify-center min-h-screen text-center bg-gray-100"
+  >
+    <HeaderMain :title="title" :description="description" :contact="contact" />
+    <nav
+      class="
+        grid
+        w-full
+        max-w-[38rem]
+        grid-cols-3
+        py-4
+        mx-auto
+        text-center
+        divide-x divide-red-500
+        sm:text-2xl
+        text-red-400 text-bold text-xl
+      "
+    >
+      <n-link
+        to="/"
+        class="hover:text-yellow-500"
+        :class="{ 'text-pink-800': isActive('/') }"
+        >Portfolio
+      </n-link>
+
+      <n-link
+        to="/about"
+        class="hover:text-yellow-500"
+        :class="{ 'text-pink-800': isActive('/about') }"
+        >About
+      </n-link>
+
+      <n-link
+        to="/stack"
+        class="hover:text-yellow-500"
+        :class="{ 'text-pink-800': isActive('/stack') }"
+        >Stack
+      </n-link>
+    </nav>
+    <div class="h-[2px] bg-red-400 mx-4 md:mx-20"></div>
+    <main
+      class="container py-8 mx-auto mb-auto divide-y-2 divide-black  divide-opacity-25"
+    >
+      <slot></slot>
+    </main>
+
+    <Footer />
   </div>
 </template>
 
 <script>
 import HeaderMain from './HeaderMain';
-import Footer from './Footer';
+import Footer from './Footer.vue';
 
 export default {
   name: 'MainLayout',
   components: {
     HeaderMain,
-    Footer,
+    Footer
   },
   data: () => {
     return {
       title: 'Alexis Barba',
-      description: 'Web Developer',
+      description: 'Frontend Engineer',
       contact: {
         github: 'https://github.com/alexbarba/',
         linkedin: 'https://www.linkedin.com/in/alexisbarba',
-        twitter: 'https://www.twitter.com/AlexBarba_',
-        mail: 'alexis.barba.perez@gmail.com',
-      },
+        twitter: 'https://www.twitter.com/alexBarba_',
+        mail: 'alexis.barba.perez@gmail.com'
+      }
     };
   },
+  methods: {
+    isActive(route) {
+      return this.$nuxt.$route.path === route;
+    }
+  }
 };
 </script>
-
-<style>
-.main-layout {
-  text-align: center;
-  margin-top: 30px;
-}
-</style>

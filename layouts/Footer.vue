@@ -1,11 +1,11 @@
 <template>
-  <div class="flex items-center bg-gray-200 h-16 justify-center">
-    <div class="">Alexis Barba © - 2020</div>
-  </div>
+  <footer class="flex items-center justify-center bg-gray-200">
+    <p class="my-8 text-xl text-gray-700 text-bold">Alexis Barba - 2021</p>
+  </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer',
+  name: 'Footer'
 };
 </script>

@@ -1,13 +1,16 @@
 <template>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg card">
-    <a :href="url" target="_blank">
-      <img class="w-full" :src="img" alt="logo" />
-    </a>
+  <a
+    :href="url"
+    target="_blank"
+    class="grid content-center max-w-sm gap-4 p-4 overflow-hidden bg-white rounded shadow-lg "
+  >
+    <img class="w-full" :src="img" alt="logo" />
+
     <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">
+      <div class="mb-2 text-xl font-bold">
         {{ title }}
       </div>
-      <p class="text-gray-700 text-base">
+      <p class="text-base text-gray-700">
         {{ description }}
       </p>
     </div>
@@ -15,11 +18,11 @@
       <span
         v-for="label in labels"
         :key="label"
-        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+        class="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full "
         >#{{ label }}</span
       >
     </div>
-  </div>
+  </a>
 </template>
 
 <script>
@@ -28,32 +31,28 @@ export default {
   props: {
     title: {
       type: String,
-      required: true,
+      required: true
     },
     description: {
       type: String,
-      required: true,
+      required: true
     },
     labels: {
       type: Array,
-      required: true,
+      required: true
     },
     url: {
       type: String,
-      required: true,
+      required: true
     },
     img: {
       type: String,
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 };
 </script>
 <style scoped>
-.card {
-  display: inline-block;
-  margin: 20px;
-}
 img {
   margin-left: auto;
   margin-right: auto;
